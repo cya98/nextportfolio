@@ -4,7 +4,7 @@ import Darkmodebutton from './dark-mode'
 export default function Layout({ children }) {
   return (
     <>
-      <div>
+      <div className="bg-primary">
         <header className="text-gray-600 body-font">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <Link
@@ -46,9 +46,9 @@ export default function Layout({ children }) {
         </header>
         <main>{children}</main>
 
-        <footer className="text-gray-600 body-font">
+        <footer className="body-font">
           <div className="border-t border-gray-200"></div>
-          <div className="bg-gray-100">
+          <div className="">
             <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
               <Link
                 href="/"
