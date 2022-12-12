@@ -1,6 +1,6 @@
 import { useTheme } from 'next-themes'
 
-export default function DarkModeToggleButton() {
+export default function Darkmodebutton() {
   // theme : 현재 값 가져오기 getter
   // setTheme : 현재 값 바꾸기 setter
   const { theme, setTheme } = useTheme()
