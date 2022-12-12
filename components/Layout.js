@@ -24,7 +24,7 @@ export default function Layout({ children }) {
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
 
-              <span className="ml-3 text-xl">Milkis portfolio</span>
+              <span className="ml-3 text-xl">ChanHa portfolio</span>
             </Link>
 
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -54,7 +54,7 @@ export default function Layout({ children }) {
                 href="/"
                 className="flex title-font font-medium items-center md:justify-start"
               >
-                <span className="ml-3 mr-3 text-xl">밀키스포트폴리오 </span>
+                <span className="ml-3 mr-3 text-xl">찬하의 포트폴리오 </span>
               </Link>
               <p className="text-gray-500 text-sm text-center sm:text-left">
                 © 2022 Milkis —
